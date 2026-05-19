@@ -1,1 +1,41 @@
-/.venv
+# Virtual Environment
+/.venv/
+
+# MediaPipe model/task files
+/hand_landmarker.task
+
+# LIME output files
+/lime_explanation.html
+
+# Refactor scripts
+/refactor_notebook.py
+
+# Sample images
+/sample.jpg
+
+# Trained model files
+/vgg16_transfer_learning_model.h5
+
+# Dataset and data folders
+/dataset/
+/data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+
+# Logs
+*.log
